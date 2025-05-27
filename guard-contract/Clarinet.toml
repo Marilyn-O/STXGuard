@@ -5,6 +5,11 @@ authors = []
 telemetry = true
 cache_dir = '.\.cache'
 requirements = []
+[contracts.account-cleanup]
+path = 'contracts/account-cleanup.clar'
+clarity_version = 3
+epoch = 3.0
+
 [contracts.cleanup]
 path = 'contracts/cleanup.clar'
 clarity_version = 3
