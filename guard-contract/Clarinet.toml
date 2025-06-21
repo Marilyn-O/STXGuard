@@ -1,21 +1,19 @@
 [project]
-name = 'guard-contract'
-description = ''
+name = "guard-contract"
 authors = []
+description = ""
 telemetry = true
-cache_dir = '.\.cache'
 requirements = []
-[contracts.account-cleanup]
-path = 'contracts/account-cleanup.clar'
-clarity_version = 3
-epoch = 3.0
+[contracts.reward-system]
+path = "contracts/reward-system.clar"
+depends_on = []
 
-[contracts.cleanup]
-path = 'contracts/cleanup.clar'
-clarity_version = 3
-epoch = 3.0
+[repl]
+costs_version = 2
+parser_version = 2
+
 [repl.analysis]
-passes = ['check_checker']
+passes = ["check_checker"]
 
 [repl.analysis.check_checker]
 strict = false
