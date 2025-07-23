@@ -4,6 +4,10 @@ authors = []
 description = ""
 telemetry = true
 requirements = []
+[contracts.analytics]
+path = "contracts/analytics.clar"
+depends_on = []
+
 [contracts.reward-system]
 path = "contracts/reward-system.clar"
 depends_on = []
